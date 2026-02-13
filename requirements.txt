@@ -4,6 +4,6 @@ langgraph==1.0.8
 langgraph-checkpoint-sqlite==3.0.3
 tavily-python
 langchain==0.3.0
-langchain-core==0.3.0
+langchain-core==0.3.15
 langchain-community==0.3.0
 langchain-chroma
