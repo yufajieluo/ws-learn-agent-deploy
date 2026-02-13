@@ -2,12 +2,6 @@
 streamlit==1.53.1
 tavily-python
 
-# 2. LangChain 核心家族 (锁定在 0.3.0 时代)
-langchain==0.3.0
-langchain-community==0.3.0
-langchain-google-genai==2.0.1
-langchain-chroma==1.1.0
-
 # 3. LangGraph 图编排体系 (锁定你的精准版本)
 langgraph==1.0.8
 langgraph-checkpoint-sqlite==3.0.3
@@ -15,3 +9,8 @@ langgraph-checkpoint-sqlite==3.0.3
 # 4. 向量数据库
 chromadb==1.5.0
 
+# 2. LangChain 核心家族 (锁定在 0.3.0 时代)
+langchain-chroma==1.1.0
+langchain==0.3.0
+langchain-community==0.3.0
+langchain-google-genai==2.0.1
