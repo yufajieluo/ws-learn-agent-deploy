@@ -1,9 +1,17 @@
+# 1. 前端与搜索引擎 (保留你的精准版本 / 补充你代码必需的)
 streamlit==1.53.1
-langchain-google-genai==2.0.1
-langgraph==1.0.8
-langchain-chroma
-langgraph-checkpoint-sqlite==3.0.3
 tavily-python
+
+# 2. LangChain 核心家族 (锁定在 0.3.0 时代)
 langchain==0.3.0
-langchain-core==0.3.15
 langchain-community==0.3.0
+langchain-google-genai==2.0.1
+langchain-chroma==1.1.0
+
+# 3. LangGraph 图编排体系 (锁定你的精准版本)
+langgraph==1.0.8
+langgraph-checkpoint-sqlite==3.0.3
+
+# 4. 向量数据库
+chromadb==1.5.0
+
