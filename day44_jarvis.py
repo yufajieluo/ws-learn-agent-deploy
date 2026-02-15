@@ -33,7 +33,7 @@ with st.sidebar:
     st.header("🎮 控制台")
     
     # API Key
-    api_key = os.environ.get("GOOGLE_API_KEY")
+    api_key = st.secrets["GOOGLE_API_KEY"]
     if not api_key:
         api_key = st.text_input("Google API Key", type="password")
 
